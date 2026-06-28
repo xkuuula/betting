@@ -24,6 +24,18 @@ uv run polymarket-cs2-alerts
 
 On Windows you can also edit `.env` and run `run_bot.bat`.
 
+## Hosting
+
+For hosting panels that expect a root Python file, use:
+
+```text
+server.py
+```
+
+Install dependencies from `requirements.txt` and set the same environment variables as in
+`.env.example` in the hosting panel. On bothost.ru this avoids errors like
+`can't open file '/app/server.py'`.
+
 ## Development
 
 ```powershell
