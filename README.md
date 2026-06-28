@@ -36,6 +36,9 @@ Install dependencies from `requirements.txt` and set the same environment variab
 `.env.example` in the hosting panel. On bothost.ru this avoids errors like
 `can't open file '/app/server.py'`.
 
+Upload the whole repository contents so `/app/server.py` and
+`/app/polymarket_cs2_alerts/` are next to each other.
+
 ## Development
 
 ```powershell
